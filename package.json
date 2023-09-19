@@ -1,0 +1,18 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node-sass": "node-sass --watch css/style.scss css/style.css",
+    "node-sass-min": "node-sass --watch css/style.scss css/style.min.css --output-style compressed"
+  },
+  "keywords": [],
+  "author": "João Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  }
+}
